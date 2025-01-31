@@ -1,0 +1,1 @@
+Seed	ClassPair	MeanClassProb	Std	Margin1	Margin2	Thickness1	Thickness2	Complexity
