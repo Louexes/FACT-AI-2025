@@ -1,4 +1,4 @@
-name: gnnboundary
+name: gnnboundaryFACT
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
