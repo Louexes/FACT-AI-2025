@@ -152,7 +152,6 @@ dependencies:
       - fqdn==1.5.1
       - frozenlist==1.4.1
       - fsspec==2024.3.1
-      - gnn-xai-common==1.0.4
       - gnnboundary==1.0.0
       - gnninterpreter==1.0.0
       - httpcore==1.0.5
