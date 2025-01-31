@@ -12,6 +12,8 @@ Furthermore, there are respective `gnninterpreter_{dataset}.py` files which inco
 
 The random baseline is retrieved by executing the cells of the notebook `random_baseline.ipynb`.
 
+You must download the data from: https://drive.google.com/drive/folders/1s2y2dXTO_6oe8_bwsLpeL0ElOu4dLten and then drag and drop the `data` folder into the root directory of the project.
+
 ## Original paper extensions
 We extend the original study by applying GNNBoundary to the PROTEINS dataset. The results for this dataset are produced via  `gnnboundary_proteins.py`, also callable in `Main.ipynb`. Furthermore, we apply principal component analysis on the boundary graph embeddings and visualize these along with the embeddings of the classifier datapoints in `pca_embeddings.ipynb`.
 
@@ -20,12 +22,11 @@ The implementation of Boundary Margin, Boundary Thickness and Boundary Complexit
 
 ## Environment and Installation
 
-All reproducibility experiments have been conducted in an environment which can be installed using `FACT_environment.yml`. We are using Python 3.11.11, PyTorch 2.1.2 and PyTorch Geometric 2.5.3. To replicate our environment, you need to additionally install the packages 'os' and 'random' via pip.
+All reproducibility experiments have been conducted in an environment which can be installed using `FACT_environment.yml`. We are using Python 3.11.11, PyTorch 2.1.2 and PyTorch Geometric 2.5.3.
 
 ```bash
 conda env create -f FACT_environment.yml
-pip install os
-pip install random
+conda activate gnnboundaryFACT
 ```
 
 ## Changes from the original Repository
