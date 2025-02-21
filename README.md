@@ -1,6 +1,6 @@
 # GNNBoundary Reproducibility Study
 
-This repo contains the implementation of the reproducibility study of the paper "[GNNBoundary: Towards Explaining Graph Neural Networks Through the Lens of Decision Boundaries]" conducted at the University of Amsterdam.
+This repo contains the implementation of the reproducibility study of the paper "[GNNBoundary: Towards Explaining Graph Neural Networks Through the Lens of Decision Boundaries]".
 
 ## Reproducibility test files
 The reproduction files of the core study are:
@@ -12,7 +12,7 @@ Furthermore, there are respective `gnninterpreter_{dataset}.py` files which inco
 
 The random baseline is retrieved by executing the cells of the notebook `random_baseline.ipynb`.
 
-You must download the data from: https://drive.google.com/drive/folders/1s2y2dXTO_6oe8_bwsLpeL0ElOu4dLten and then drag and drop the `data` folder into the root directory of the project.
+You must download the data from: https://huggingface.co/datasets/GnnBoundaryReproduction/GnnBoundaryReproductionData/blob/main/data.zip and then drag and drop the `data` folder into the root directory of the project.
 
 ## Original paper extensions
 We extend the original study by applying GNNBoundary to the PROTEINS dataset. The results for this dataset are produced via  `gnnboundary_proteins.py`, also callable in `Main.ipynb`. Furthermore, we apply principal component analysis on the boundary graph embeddings and visualize these along with the embeddings of the classifier datapoints in `pca_embeddings.ipynb`.
